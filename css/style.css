@@ -1,0 +1,43 @@
+.card {
+	width:70%;
+	margin:10% auto;
+	border:1px solid #3c3c3c;
+	padding:15px;
+	display: flex;
+  flex-direction: row;  
+}
+
+.side {
+	float:left;
+	width:20%;
+}
+.content{
+	width:80%;
+	padding:15px;
+}
+.title{
+	width:100%;
+	margin:0;
+}
+.skills-container {
+	padding:15px;
+	width:100%;
+	display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.skill { 
+	width:20%;
+	text-align:center;
+	border:1px solid #3c3c3c;
+	border-radius:3px;
+	margin-right:5px;
+}
+
+h4 { 
+	width:100%;
+	padding:0 15px;
+	font-size:.9rem;
+	margin-bottom:0;
+}
