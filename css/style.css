@@ -1,5 +1,14 @@
+body {
+	background: #E6EFE9;
+	font-family: 'Cabin', sans-serif;
+}
+.side h2 { text-transform:uppercase;
+	font-size:1rem;
+	font-weight:500;	
+}
 .card {
-	width:70%;
+	background: #fff;
+	width:60%;
 	margin:10% auto;
 	border:1px solid #3c3c3c;
 	padding:15px;
@@ -16,10 +25,14 @@
 	padding:15px;
 }
 .title{
-	width:100%;
-	margin:0;
+	width:48%;
 }
-.skills-container {
+
+.company{
+	width:20%;
+}
+
+.container {
 	padding:15px;
 	width:100%;
 	display: -webkit-flex;
@@ -40,4 +53,54 @@ h4 {
 	padding:0 15px;
 	font-size:.9rem;
 	margin-bottom:0;
+	border-bottom:3px solid #000;
+  border-image: 
+        linear-gradient(#A1FFCE, #FAFFD1),
+        linear-gradient(#A1FFCE, #FAFFD1);
+        
 }
+.experience{
+	padding:0;
+	margin:10px;
+	background:#fff;
+}
+
+
+
+.experience * { 
+	padding:15px;	
+}
+.education * { 
+	padding:15px;	
+}
+
+.at {
+	text-align:center;
+	width:2%;
+	margin-left:-1%;
+	border-radius:60%;
+	color:#fff;
+	font-weight:700;
+}
+
+.timeframe {
+	width:30%;
+	font-size:.9rem;
+	display: flex;
+	flex-direction:row;
+	padding:0;
+}
+.timeframe .start {
+	background: #D0FF9B;
+	z-index:2;
+}
+.timeframe .end {
+	background:#A5EA81;
+	z-index:2;
+}
+.education { 
+	margin:10px;
+	padding:0;
+}
+
+
