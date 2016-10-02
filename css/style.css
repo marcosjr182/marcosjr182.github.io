@@ -3,7 +3,12 @@ body {
 	font-family: 'Cabin', sans-serif;
 	color:#757575;
 }
-.side h2 { 
+
+a {
+	color:#757575;
+	text-decoration:none;
+}
+.side h2 {
 	text-transform:uppercase;
 	font-family: 'Hammersmith One', sans-serif;
 	font-size:2rem;
@@ -13,14 +18,16 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
-.card {
+.page {
 	width:80%;
 	margin:5% auto;
 	padding:15px;
 	display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
+.card {
 
+}
 .side {
 	float:left;
 	width:20%;
@@ -36,6 +43,7 @@ body {
 	text-align:right;
 }
 .company{
+	padding: 15px;
 	width:30%;
 	font-weight:800;
 	text-decoration:none;
@@ -45,31 +53,39 @@ body {
 .container {
 	background:#fff;
 	border:1px solid #e1e1e1;
-	padding:15px;
-	width:100%;
 	display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row;
   flex-direction: row;
+  margin:14px;
+	-webkit-flex-direction: row;
+	padding:15px;
 }
-.skills { 
-	width:100%;
-	display:flex;
-	flex-direction:row;
-	padding:0;
-	margin:15px;
+.container > div {
+	padding:15px;
 }
-.skills:last-child {
-	margin-right:0;
-}
-.skill { 
-	width:20%;
-	text-align:center;
-	margin-right:5px;
-	padding: 15px;
+.skills {
+	padding:15px;
+	display:block;
 }
 
-h4 { 
+.skill {
+	text-align:center;
+	display:inline-block;
+}
+.skill .name {
+	/* border:.5px solid #757575; */
+	box-shadow:0 0 1px #757575;
+	border-radius: 2px;
+	color:#757575;
+	font-size:12px;
+	padding: 5px 25px;
+}
+.skill .name:hover {
+	box-shadow:0 0 2px #757575;
+	cursor:default;
+}
+
+h4 {
 	width:100%;
 	padding:0 15px;
 	font-size:.9rem;
@@ -79,23 +95,12 @@ h4 {
   -webkit-background-clip: text;
   background-clip: text;
 }
-.experience{
-	padding:0;
-	margin:10px;
-	background:#fff;
-}
 
 .user {
 	font-size:1.4rem;
 	text-transform:none;
 }
 
-.experience * { 
-	padding:15px;	
-}
-.education * { 
-	padding:15px;	
-}
 .scholarship {
 	padding-left:0;
 	font-size:.7rem;
@@ -115,9 +120,25 @@ h4 {
 	text-align:right;
 	font-size:.9rem;
 }
-.education { 
-	margin:10px;
-	padding:0;
-}
 
+.project {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 25%;
+	padding:0;
+	display: flex;
+	flex-direction: column;
+}
+.project .project-description {
+	background: #fff;
+	padding-top: 0;
+	font-size: 13px;
+}
+.project .project-title {
+	background:#fff;
+	font-weight: bold;
+	margin-top: 60%;
+	padding-bottom: 10px;
+}
 
