@@ -25,9 +25,6 @@ a {
 	display: flex;
   flex-direction: row;
 }
-.card {
-
-}
 .side {
 	float:left;
 	width:20%;
@@ -63,9 +60,14 @@ a {
 .container > div {
 	padding:15px;
 }
+
 .skills {
-	padding:15px;
+	padding:10px;
 	display:block;
+}
+
+.skills div {
+	padding:10px;
 }
 
 .skill {
@@ -91,8 +93,10 @@ h4 {
 	font-size:.9rem;
 	margin-bottom:0;
   color:transparent;
+  background: -moz-linear-gradient(to bottom, #457fca 0%, #5691c8 100%);
   background: linear-gradient(to bottom, #457fca 0%, #5691c8 100%);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: text;
 }
 
@@ -120,22 +124,31 @@ h4 {
 	text-align:right;
 	font-size:.9rem;
 }
+.projects {
+	display:flex;
+	flex-direction:row;
+}
 
-.project {
+.card {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 25%;
-	padding:0;
 	display: flex;
 	flex-direction: column;
+	padding:0;
 }
-.project .project-description {
+
+.project {
+	
+	width: 25%;
+
+}
+.card .project-description {
 	background: #fff;
 	padding-top: 0;
 	font-size: 13px;
 }
-.project .project-title {
+.card .project-title {
 	background:#fff;
 	font-weight: bold;
 	margin-top: 60%;
