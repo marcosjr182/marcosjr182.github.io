@@ -129,6 +129,10 @@ h4 {
 	flex-direction:row;
 }
 
+.project {
+	width: 25%;
+}
+
 .card {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -138,11 +142,6 @@ h4 {
 	padding:0;
 }
 
-.project {
-	
-	width: 25%;
-
-}
 .card .project-description {
 	background: #fff;
 	padding-top: 0;
@@ -154,4 +153,3 @@ h4 {
 	margin-top: 60%;
 	padding-bottom: 10px;
 }
-
