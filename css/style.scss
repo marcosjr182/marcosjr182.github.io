@@ -1,0 +1,196 @@
+$white: #ffffff;
+
+$font-primary-color: #757575;
+$card-border: #e1e1e1;
+
+.fancy-blue {
+  color: transparent;
+  background: linear-gradient(to bottom, #457fca 0%, #5691c8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;  
+}
+
+body {
+  background: #eee;
+  font-family: 'Cabin', sans-serif;
+  color: $font-primary-color;
+  width: 80%;
+  margin: 2% auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  color: $font-primary-color;
+  text-decoration:none;
+}
+
+.content-container {
+  background: $white;
+  border: 1px solid $card-border;
+  padding: 0;
+}
+
+.side {
+  float:left;
+  width:20%;
+
+  h2 {
+    @extend .fancy-blue;
+    text-transform: uppercase;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+  }
+    
+}
+
+.page {
+  width:80%;
+  padding:15px;
+}
+
+.title {
+  width: 38%;
+}
+
+.at {
+  text-align:center;
+  width:2%;
+  margin-left:-1%;
+  border-radius:60%;
+  color:#757575;
+  font-weight:500;
+}
+
+.timeframe {
+  width:20%;
+  text-align:right;
+  font-size:.9rem;
+}
+
+.company {
+  padding: 15px;
+  width: 30%;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.right {
+  text-align: right;
+}
+
+.container {
+  @extend .content-container;
+  margin:14px;
+  padding:15px;
+  
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+
+  > div {
+    padding:15px;
+  }
+}
+
+
+.skills {
+  padding: 15px;
+
+  .skill {
+    @extend .content-container;
+    display:inline-block;
+    border-radius: 2px;
+    padding:10px;
+    text-align:center;
+    padding: .5em .8em;
+    font-size: 12px;
+      
+    &:hover {
+      border-color: #c1c1c1;
+      cursor:default;
+    }
+
+    .icon {
+      margin-bottom: -.13em;
+    }
+  }
+}
+
+
+h4 {
+  width: 100%;
+  padding: 0 15px;
+  font-size: .9rem;
+  margin-bottom: 0;
+  @extend .fancy-blue;
+}
+
+.user {
+  font-size: 1.4rem;
+  text-transform: none;
+}
+
+.scholarship {
+  padding-left: 0;
+  font-size: .7rem;
+}
+
+.projects {
+  display:flex;
+  flex-direction:row;
+}
+
+.project {
+  width: 25%;
+}
+
+.card {
+  padding: 0;
+
+  @extend .content-container;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  .project-description {
+    background: $white;
+    padding-top: 0;
+    font-size: 13px;
+  }
+
+  .project-title {
+    background: $white;
+    font-weight: bold;
+    margin-top: 60%;
+    padding-bottom: 10px;
+  }
+}
+
+.icon {
+  height: 1em;
+  width: 1em;
+}
+
+.external {
+  padding: 15px;
+  
+  .icon {
+    margin-bottom: -.2rem;
+  }
+
+  &-link {
+    @extend .content-container;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-right: .4em;
+    padding: .5em .8em;
+  }
+}
+
+
