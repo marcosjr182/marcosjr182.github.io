@@ -1,3 +1,7 @@
+.icon {
+  height: 1em;
+  width: 1em; }
+
 .fancy-blue, .side h2, h4 {
   color: transparent;
   background: linear-gradient(to bottom, #457fca 0%, #5691c8 100%);
@@ -22,6 +26,9 @@ a {
   background: #ffffff;
   border: 1px solid #e1e1e1;
   padding: 0; }
+  .content-container:hover, .container:hover, .skills .skill:hover, .card:hover, .external-link:hover {
+    border-color: #c1c1c1;
+    cursor: default; }
 
 .side {
   float: left;
@@ -62,8 +69,8 @@ a {
   text-align: right; }
 
 .container {
-  margin: 14px;
-  padding: 15px;
+  margin: 5px 15px;
+  padding: 10px;
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
@@ -80,9 +87,6 @@ a {
     text-align: center;
     padding: .5em .8em;
     font-size: 12px; }
-    .skills .skill:hover {
-      border-color: #c1c1c1;
-      cursor: default; }
     .skills .skill .icon {
       margin-bottom: -.13em; }
 
@@ -123,10 +127,6 @@ h4 {
     font-weight: bold;
     margin-top: 60%;
     padding-bottom: 10px; }
-
-.icon {
-  height: 1em;
-  width: 1em; }
 
 .external {
   padding: 15px; }

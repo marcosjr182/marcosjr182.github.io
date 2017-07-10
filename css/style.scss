@@ -3,6 +3,11 @@ $white: #ffffff;
 $font-primary-color: #757575;
 $card-border: #e1e1e1;
 
+.icon {
+  height: 1em;
+  width: 1em;
+}
+
 .fancy-blue {
   color: transparent;
   background: linear-gradient(to bottom, #457fca 0%, #5691c8 100%);
@@ -30,6 +35,11 @@ a {
   background: $white;
   border: 1px solid $card-border;
   padding: 0;
+
+  &:hover {
+    border-color: #c1c1c1;
+    cursor:default;
+  }
 }
 
 .side {
@@ -83,9 +93,9 @@ a {
 
 .container {
   @extend .content-container;
-  margin:14px;
-  padding:15px;
-  
+  margin: 5px 15px;
+  padding:10px;
+
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
@@ -108,11 +118,6 @@ a {
     text-align:center;
     padding: .5em .8em;
     font-size: 12px;
-      
-    &:hover {
-      border-color: #c1c1c1;
-      cursor:default;
-    }
 
     .icon {
       margin-bottom: -.13em;
@@ -170,11 +175,6 @@ h4 {
     margin-top: 60%;
     padding-bottom: 10px;
   }
-}
-
-.icon {
-  height: 1em;
-  width: 1em;
 }
 
 .external {
