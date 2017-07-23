@@ -1,0 +1,240 @@
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;  font-family: 'Roboto';  
+  font-size: .70em;
+  background: #fdfdfd;
+  line-height: 1.4; 
+}
+
+.clearfix {
+  clear: both;
+}
+
+.chaordic {
+  border-radius: 5px;
+  width: 80%;
+  margin: 5% auto;
+  box-shadow: 0 0 5px #dedede; 
+  box-sizing: border-box;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+.chaordic:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.chaordic-content {
+  padding: 2px 0 25px 0;
+  background: #fff;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 94%, rgba(229,241,251,1) 100%);
+}
+
+.chaordic-header {
+  padding: 10px;
+  text-align: left;
+  height: 40px;
+  width: 100%;
+  background: blue;
+  box-sizing: border-box;
+  font-size: 1.4em;
+  color: #006699;
+  font-weight: 500;
+  background: rgba(239,247,254,1);
+  background: -moz-linear-gradient(top, rgba(239,247,254,1) 0%, rgba(245,249,250,1) 47%, rgba(229,241,251,1) 50%, rgba(239,247,254,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(239,247,254,1)), color-stop(47%, rgba(245,249,250,1)), color-stop(50%, rgba(229,241,251,1)), color-stop(100%, rgba(239,247,254,1)));
+  background: -webkit-linear-gradient(top, rgba(239,247,254,1) 0%, rgba(245,249,250,1) 47%, rgba(229,241,251,1) 50%, rgba(239,247,254,1) 100%);
+  background: -o-linear-gradient(top, rgba(239,247,254,1) 0%, rgba(245,249,250,1) 47%, rgba(229,241,251,1) 50%, rgba(239,247,254,1) 100%);
+  background: -ms-linear-gradient(top, rgba(239,247,254,1) 0%, rgba(245,249,250,1) 47%, rgba(229,241,251,1) 50%, rgba(239,247,254,1) 100%);
+  background: linear-gradient(to bottom, rgba(239,247,254,1) 0%, rgba(245,249,250,1) 47%, rgba(229,241,251,1) 50%, rgba(239,247,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff7fe', endColorstr='#eff7fe', GradientType=0 );
+}
+
+.header-title {
+  display: inline-block;
+}
+.header-title.recommendation {
+  margin-left: 100px;
+}
+
+.col {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  display: table-cell;  
+  min-height: 1px;
+}
+
+.chaordic-reference {
+  width: 20%;
+  position: relative;
+  height: 100%;
+  z-index: 3;
+  text-align: center;
+}
+
+.chaordic-reference > .product {
+  /*display: block;*/
+}
+
+.chaordic-recommendation > .header {
+  width: 100%;
+}
+
+.chaordic-recommendation {
+  border-left: 1px solid #eeeeee;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.product-list {
+  padding: 0 30px; 
+  transition: transform 1s ease;
+}
+
+.product-list > .product:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7eaf9+0,ffffff+100&1+0,0.63+100 */
+  background: -moz-linear-gradient(top, rgba(215,234,249,1) 0%, rgba(255,255,255,0.73) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(215,234,249,1) 0%,rgba(255,255,255,0.73) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(215,234,249,1) 0%,rgba(255,255,255,0.73) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7eaf9', endColorstr='#a1ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+.product {
+  padding: 5px 0;
+  margin: 10px 5px;
+  display: inline-block;
+  width: 166px;
+  white-space: normal;
+  box-sizing: border-box;
+  vertical-align: top;
+} 
+
+.product-details {
+  text-align: left;
+  margin: 0 6px;
+}
+
+.product-img {
+  text-align: center;
+  width: 150px;
+  height: 135px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 2px solid #ffffff;
+}
+
+.product-list > .product:hover .product-img {
+  background: #fff;
+  border-color: #dedede;
+}
+
+.product-oldprice {
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.product-price {
+  margin-top: 1px;
+  font-size: 1.1em;
+  letter-spacing: .9;
+  color: #cc0000;
+}
+
+.price-value {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.price-payment {
+  width: 100%;
+  font-weight: 900;
+  font-size: .9em;
+}
+
+/* Controls */
+.controls-left,
+.controls-right {
+  height: 100%;
+  width: 45px;
+  padding: 95px 5px 0 5px;
+  z-index: 4;
+}
+
+.controls-left {
+  background: rgba(255,255,255,1);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0.67) 50%, rgba(161,195,255,0) 100%);
+  position: absolute;
+  left:0;
+}
+
+.controls-right {
+  background: rgba(161,195,255,0.18);
+  background: linear-gradient(to right, rgba(161,195,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,1) 100%);
+  text-align: right;
+  position: absolute;
+}
+
+.controls-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.controls-icon:hover {
+  cursor: pointer;
+}
+
+/* Spinner - SpinKit */
+
+.spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #edf5fb;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
