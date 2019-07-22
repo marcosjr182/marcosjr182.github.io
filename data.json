@@ -1,0 +1,50 @@
+{
+    "frontEndSkills": ["Javascript", "ES6", "React", "AngularJS", "CSS", "SASS"],
+    "backEndSkills": ["Ruby on Rails", "Scala", "Spark"],
+    "experience": [
+        {
+            "company": "Linx",
+            "companyWebsite": "https://www.linkedin.com/company/linxretail",
+            "description": "Working at <a href=\"https://www.linximpulse.com.br\" target=\"_blank\">Linx Impulse</a> on an Email Automation solution for e-commerce companies which also provides custom product recommendations to their customers.<br>Our current stack ranges from AngularJS and Node running on Heroku to Scala and Java using Spark running on AWS.",
+            "role": "Full Stack Developer",
+            "duration": "AUG 2017 - TODAY&nbsp;&nbsp;&nbsp;&nbsp;"
+        },
+        {
+            "company": "CodeMiner 42",
+            "companyWebsite": "https://www.linkedin.com/company/codeminer42",
+            "description": "Working mostly on small projects (Rails 5 API / ReactJS / Angular) while under tutoring from experienced developers. Also got to work on a big project on a Rails & BackboneJS open source task manager which was used as the company's task manager. We've also start migrating the Backbone views to React components.",
+            "role": "Front End Intern",
+            "duration": "DEC 2016 - JUN 2017"
+        },
+        {
+            "company": "BLUE1647",
+            "companyWebsite": "http://www.blue1647.com",
+            "description": "I've been able to explore and learn something about IoT, building projects using Arduino Lilypads and Raspberry Pi. I've built there my first API using Rails 5 and also got to exploring Node.js/Javascript frameworks and technologies like Node, Express, Hapi.js and Electron/NW.js to build small projects.",
+            "role": "Summer Intern <small>(through <a href=\"https://www.iie.org/programs/brazil-scientific-mobility\" target=\"_blank\">BSMP</a>)</small>",
+            "duration": "JUN 2016 - AUG 2016"
+        },
+        {
+            "company": "4Soft",
+            "description": "<a href=\"https://en.wikipedia.org/wiki/Junior_enterprise\">Junior Enterprise<a> for Federal University of Rio Grande do Norte's Software Engineering course.",
+            "companyWebsite": "http://www.4soft.com.br",
+            "role": "Full Stack Developer",
+            "duration": "AUG 2014 - JUN 2015"
+        }
+    ],
+    "education": [
+        {
+            "course": "BSc. Information Technology <strong>(Dropped out in 2017)</strong>",
+            "school": "UFRN",
+            "schoolWebsite": "http://www.sri.ufrn.br/index.php?lc=EN",
+            "duration": "JAN 2014 - JUN 2017",
+            "description": "Dropped out to pursue real world experience on web development"
+        },
+        {
+            "course": "Non-degree visiting student, Computer Science",
+            "school": "Alma College",
+            "schoolWebsite": "http://www.alma.edu",
+            "duration": "AUG 2015 - MAY 2016",
+            "description": "<a href=\"https://www.iie.org/programs/brazil-scientific-mobility\" target=\"_blank\">Brazil Scientific Mobility Program</a>, fully funded scholarship recipient"
+        }
+    ]
+}
